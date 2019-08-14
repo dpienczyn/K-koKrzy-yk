@@ -34,7 +34,7 @@ public class Game {
 	public String transferMyData(String data) {
 
 		if(player%2==0) {
-			if(data.charAt(0)=='a'&&data.charAt(1)=='1'){
+			if(data.charAt(0)=='a' && data.charAt(1)=='1'){
 				if(table[0][0]==' ') {
 				table[0][0]='X';
 				}else {
@@ -42,7 +42,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='a'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='a' && data.charAt(1)=='2') {
 				if(table[0][1]==' ') {
 				table[0][1]='X';
 				}else {
@@ -50,7 +50,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='a'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='a' && data.charAt(1)=='3') {
 				if(table[0][2]==' ') {
 				table[0][2]='X';
 				}else {
@@ -58,7 +58,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='1') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='1') {
 				if(table[1][0]==' ') {
 				table[1][0]='X';
 				}else {
@@ -66,7 +66,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='2') {
 				if(table[1][1]==' ') {
 				table[1][1]='X';
 				}else {
@@ -74,7 +74,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='3') {
 				if(table[1][2]==' ') {
 				table[1][2]='X';
 				}else {
@@ -82,7 +82,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='1') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='1') {
 				if(table[2][0]==' ') {
 				table[2][0]='X';
 				}else {
@@ -90,7 +90,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='2') {
 				if(table[2][1]==' ') {
 				table[2][1]='X';
 				}else {
@@ -98,7 +98,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='3') {
 				if(table[2][2]==' ') {
 				table[2][2]='X';
 				}else {
@@ -109,7 +109,7 @@ public class Game {
 			player++;
 			}
 			else if(player%2!=0) {
-			if(data.charAt(0)=='a'&&data.charAt(1)=='1') {
+			if(data.charAt(0)=='a' && data.charAt(1)=='1') {
 				if(table[0][0]==' ') {
 				table[0][0]='O';
 				}
@@ -118,7 +118,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='a'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='a' && data.charAt(1)=='2') {
 				if(table[0][1]==' ') {
 				table[0][1]='O';
 				}
@@ -127,7 +127,7 @@ public class Game {
 				player--;
 				}
 			}
-			if(data.charAt(0)=='a'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='a' && data.charAt(1)=='3') {
 				if(table[0][2]==' ') {
 				table[0][2]='O';
 				}else {
@@ -136,7 +136,7 @@ public class Game {
 				}
 						
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='1') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='1') {
 				if(table[1][0]==' ') {
 				table[1][0]='O';
 				}else {
@@ -145,7 +145,7 @@ public class Game {
 				}
 				
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='2') {
 				if(table[1][1]==' ') {
 				table[1][1]='O';
 				}else {
@@ -154,7 +154,7 @@ public class Game {
 				}
 					
 			}
-			if(data.charAt(0)=='b'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='b' && data.charAt(1)=='3') {
 				if(table[1][2]==' ') {
 				table[1][2]='O';
 				}else {
@@ -163,7 +163,7 @@ public class Game {
 				}
 				
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='1') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='1') {
 				if(table[2][0]==' ') {
 				table[2][0]='O';
 				}else {
@@ -172,7 +172,7 @@ public class Game {
 				}
 				
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='2') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='2') {
 				if(table[2][1]==' ') {
 				table[2][1]='O';
 				}else {
@@ -181,7 +181,7 @@ public class Game {
 				}
 				
 			}
-			if(data.charAt(0)=='c'&&data.charAt(1)=='3') {
+			if(data.charAt(0)=='c' && data.charAt(1)=='3') {
 				if(table[2][2]==' ') {
 				table[2][2]='O';
 				}else {
@@ -204,66 +204,66 @@ public class Game {
 	
 	public String toCompare(String data) {
 		
-		if(table[0][0]=='X'&&table[0][1]=='X'&&table[0][2]=='X') {
+		if(table[0][0]=='X' && table[0][1]=='X' && table[0][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
-		}else if(table[0][0]=='O'&&table[0][1]=='O'&&table[0][2]=='O') {
+		}else if(table[0][0]=='O' && table[0][1]=='O' && table[0][2]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[0][0]=='X'&&table[1][0]=='X'&&table[2][0]=='X') {
+		else if(table[0][0]=='X' && table[1][0]=='X' && table[2][0]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[0][0]=='O'&&table[1][0]=='O'&&table[2][0]=='O') {
+		else if(table[0][0]=='O' && table[1][0]=='O' && table[2][0]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[1][0]=='X'&&table[1][1]=='X'&&table[1][2]=='X') {
+		else if(table[1][0]=='X' && table[1][1]=='X' && table[1][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[1][0]=='O'&&table[1][1]=='O'&&table[1][2]=='O') {
+		else if(table[1][0]=='O' && table[1][1]=='O' && table[1][2]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[2][0]=='X'&&table[2][1]=='X'&&table[2][2]=='X') {
+		else if(table[2][0]=='X' && table[2][1]=='X' && table[2][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[2][0]=='O'&&table[2][1]=='O'&&table[2][2]=='O') {
+		else if(table[2][0]=='O' && table[2][1]=='O' && table[2][2]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[0][1]=='X'&&table[1][1]=='X'&&table[2][1]=='X') {
+		else if(table[0][1]=='X' && table[1][1]=='X' && table[2][1]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[0][1]=='O'&&table[1][1]=='O'&&table[2][1]=='O') {
+		else if(table[0][1]=='O' && table[1][1]=='O' && table[2][1]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[0][2]=='X'&&table[1][2]=='X'&&table[2][2]=='X') {
+		else if(table[0][2]=='X' && table[1][2]=='X' && table[2][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[0][2]=='O'&&table[1][2]=='O'&&table[2][2]=='O') {
+		else if(table[0][2]=='O' && table[1][2]=='O' && table[2][2]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[0][0]=='X'&&table[1][1]=='X'&&table[2][2]=='X') {
+		else if(table[0][0]=='X' && table[1][1]=='X' && table[2][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[0][0]=='O'&&table[1][1]=='O'&&table[2][2]=='O') {
+		else if(table[0][0]=='O' && table[1][1]=='O' && table[2][2]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
-		else if(table[0][2]=='X'&&table[1][1]=='X'&&table[2][0]=='X') {
+		else if(table[0][2]=='X' && table[1][1]=='X' && table[2][0]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
 			System.exit(0);
 		}
-		else if(table[0][2]=='O'&&table[1][1]=='O'&&table[2][0]=='O') {
+		else if(table[0][2]=='O' && table[1][1]=='O' && table[2][0]=='O') {
 			System.out.println("Wygra³o kó³ko");
 			System.exit(0);
 		}
