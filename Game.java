@@ -107,7 +107,8 @@ public class Game {
 				}
 			}
 			player++;
-		}else if(player%2!=0) {
+			}
+			else if(player%2!=0) {
 			if(data.charAt(0)=='a'&&data.charAt(1)=='1') {
 				if(table[0][0]==' ') {
 				table[0][0]='O';
