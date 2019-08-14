@@ -20,7 +20,7 @@ public class Game {
 		System.out.println("Wprowadzaj do tablicy dane wpisujac: a1 c2 b3 itp");
 	}
 
-	public String DownloadDataGame() {
+	public String downloadDataGame() {
 		Scanner s = new Scanner(System.in);
 		String data = s.nextLine();
 		return data;
@@ -31,7 +31,7 @@ public class Game {
 		System.out.println("Wprowadz dana: ");	
 	}
 	
-	public String TransferMyData(String data) {
+	public String transferMyData(String data) {
 
 		if(player%2==0) {
 			if(data.charAt(0)=='a'&&data.charAt(1)=='1'){
@@ -201,7 +201,7 @@ public class Game {
 		return data;
 	}
 	
-	public String ToCompare(String data) {
+	public String toCompare(String data) {
 		
 		if(table[0][0]=='X'&&table[0][1]=='X'&&table[0][2]=='X') {
 			System.out.println("Wygra³ krzy¿yk");
@@ -274,9 +274,9 @@ public class Game {
 		k.printTable();
 		for(int i=0; i<9; i++) {
 			k.read();
-			String data = k.DownloadDataGame();
-			String printData = k.TransferMyData(data);
-			String d = k.ToCompare(printData);
+			String data = k.downloadDataGame();
+			String printData = k.transferMyData(data);
+			String d = k.toCompare(printData);
 		}
 
 	}
