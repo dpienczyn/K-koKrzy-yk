@@ -1,5 +1,3 @@
-package methody;
-
 import java.util.Scanner;
 
 public class Game {
@@ -216,52 +214,58 @@ public class Game {
     public String toCompare(String data) {
 
         if (table[0][0] == 'X' && table[0][1] == 'X' && table[0][2] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][0] == 'O' && table[0][1] == 'O' && table[0][2] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[0][0] == 'X' && table[1][0] == 'X' && table[2][0] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][0] == 'O' && table[1][0] == 'O' && table[2][0] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[1][0] == 'X' && table[1][1] == 'X' && table[1][2] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[1][0] == 'O' && table[1][1] == 'O' && table[1][2] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[2][0] == 'X' && table[2][1] == 'X' && table[2][2] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[2][0] == 'O' && table[2][1] == 'O' && table[2][2] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[0][1] == 'X' && table[1][1] == 'X' && table[2][1] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][1] == 'O' && table[1][1] == 'O' && table[2][1] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[0][2] == 'X' && table[1][2] == 'X' && table[2][2] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][2] == 'O' && table[1][2] == 'O' && table[2][2] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[0][0] == 'X' && table[1][1] == 'X' && table[2][2] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][0] == 'O' && table[1][1] == 'O' && table[2][2] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
             System.exit(0);
         } else if (table[0][2] == 'X' && table[1][1] == 'X' && table[2][0] == 'X') {
-            System.out.println("Wygra³ krzy¿yk");
+            System.out.println("Wygral krzyzyk");
             System.exit(0);
         } else if (table[0][2] == 'O' && table[1][1] == 'O' && table[2][0] == 'O') {
-            System.out.println("Wygra³o kó³ko");
+            System.out.println("Wygralo kÃ³lko");
+            System.exit(0);
+        } else if ((table[0][0] == 'X' || table[0][0] == 'O') && (table[0][1] == 'X' || table[0][1] == 'O') && (table[0][2] == 'X' || table[0][2] == 'O') &&
+            (table[1][0] == 'X' || table[1][0] == 'O') && (table[1][1] == 'X' || table[1][1] == 'O') && (table[1][2] == 'X' || table[1][2] == 'O') &&
+            (table[2][0] == 'X' || table[2][0] == 'O') && (table[2][1] == 'X' || table[2][1] == 'O') && (table[2][2] == 'X' || table[2][2] == 'O')) {
+            System.out.println();
+            System.out.println("Remis!!!");
             System.exit(0);
         }
         return data;
